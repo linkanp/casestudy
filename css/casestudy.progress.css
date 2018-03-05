@@ -1,0 +1,10 @@
+/**
+ * @file
+ * Wizard progress (numbering) styles.
+ *
+ * @see /casestudy/test_form_wizard_advanced
+ */
+
+.casestudy-progress__status {
+  text-align: center;
+}

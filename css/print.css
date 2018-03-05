@@ -1,0 +1,21 @@
+.custom-casestudy-page #edit-actions,
+.custom-casestudy-page .header-ad,
+.custom-casestudy-page #casestudy-tabs .ui-tabs-nav,
+.custom-casestudy-page .btn-print,
+.custom-casestudy-page .btn-pdf,
+.custom-casestudy-page .footer-container,
+.custom-casestudy-page .footer-top,
+.custom-casestudy-page .header-container
+{
+    display: none;
+}
+
+.custom-casestudy-page .form-radios label:before{
+    background-image: none;
+    width: 10px;
+}
+
+.custom-casestudy-page .form-radios input[type="radio"], .custom-casestudy-page .form-radios input[type="checkbox"]{
+    left: 0;
+    position: static;
+}

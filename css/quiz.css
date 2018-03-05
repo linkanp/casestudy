@@ -1,0 +1,1063 @@
+/***************************************** share and print styles starts ************************************************/
+.region-social-bookmarks, .sb {
+    float: right !important;
+    width: 200px;
+    height: 50px;
+    height: 47px \9;
+    text-align: right !important;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.region-social-bookmarks #block-block-14 .content {
+    padding: 0 20px;
+}
+
+.sb div {
+    float: right !important;
+    text-align: right !important;
+    width: 155px;
+    margin-top: 1px;
+}
+
+.page-pharmacists-provide-care-success .sb div {
+    width: 94px;
+}
+
+.block-addthis {
+    display: none;
+}
+
+.addthis_32x32_style .at-icon {
+    display: none;
+}
+
+.addthis_button_facebook {
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 7px;
+    background: url(../images/small_social_icon_set.png) no-repeat 0 center transparent !important;
+}
+
+.addthis_button_facebook:hover {
+    background: url(../images/small_social_icon_set.png) no-repeat 0 center transparent !important;
+    opacity: 1;
+    filter: alpha(opacity=100) !important;
+}
+
+.addthis_button_twitter {
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 7px;
+    background: url(../images/small_social_icon_set.png) no-repeat -25px center transparent !important;
+}
+
+.addthis_button_twitter:hover {
+    background: url(../images/small_social_icon_set.png) no-repeat -25px center transparent !important;
+    opacity: 1;
+    filter: alpha(opacity=100) !important;
+}
+
+.addthis_button_email {
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 7px;
+    background: url(../images/small_social_icon_set.png) no-repeat -50px center transparent !important;
+}
+
+.addthis_button_email:hover {
+    background: url(../images/small_social_icon_set.png) no-repeat -50px center transparent !important;
+    opacity: 1;
+    filter: alpha(opacity=100) !important;
+}
+
+.sb .addthis_toolbox a.at300b, .sb .addthis_toolbox a.at300m {
+    width: 24px;
+    height: 24px;
+}
+
+.addthis_button_print {
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 7px;
+    background: url(../images/small_social_icon_set.png) no-repeat -75px center transparent !important;
+}
+
+.addthis_button_print:hover {
+    background: url(../images/small_social_icon_set.png) no-repeat -75px center transparent !important;
+    opacity: 1;
+    filter: alpha(opacity=100) !important;
+}
+
+.addthis_button_linkedin {
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 7px;
+    background: url(../images/small_social_icon_set.png) no-repeat -100px center transparent !important;
+}
+
+.addthis_button_linkedin:hover {
+    background: url(../images/small_social_icon_set.png) no-repeat -100px center transparent !important;
+    opacity: 1;
+    filter: alpha(opacity=100) !important;
+}
+
+.addthis_button_facebook span, .addthis_button_twitter span, .addthis_button_email span, .addthis_button_print span, .addthis_button_linkedin span {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.sb .addthis_default_style .at300b {
+    padding: 0;
+}
+
+.addthis_toolbox_item span {
+    background-image: none !important;
+}
+
+a.addthis_toolbox_item:hover {
+    text-decoration: none;
+}
+
+/***************************************** share and print styles ends ************************************************/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body.custom-quiz-page {
+    margin: 0;
+    overflow-x: hidden;
+    background: #f3f3f3;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-weight: 400;
+    font-family: "Open sans", Arial, sans-serif;
+}
+
+.custom-quiz-page a:focus, div:focus, p:focus, img:focus, .custom-quiz-page a {
+    outline: 0 none;
+}
+
+a {
+    outline: none;
+    color: #0062a4;
+    text-decoration: none;
+}
+
+.custom-quiz-page p {
+    padding: 0 0 15px 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Open sans", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+
+.custom-quiz-page h2 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #0062a4;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+.custom-quiz-page label, .custom-quiz-page input, .custom-quiz-page button, .custom-quiz-page select, .custom-quiz-page textarea {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Open sans", Arial, sans-serif;
+}
+
+.form-checkboxes .form-item, .form-radios .form-item {
+    position: relative;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.form-radios .form-radio {
+    left: -26px;
+    position: absolute;
+    top: 6px;
+}
+
+.study-wrapper {
+    max-width: 995px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 0 0 0;
+    margin: auto;
+    box-shadow: 0 0 10px #ededed;
+    border-top: 28px solid #664389;
+    border-bottom: 28px solid #664389;
+    background: url(../images/bg2.png) repeat-x top #fff;
+}
+
+.header-share-blocks {
+    padding: 25px 0 0 0;
+    position: relative;
+}
+
+.header-share-blocks h6 {
+    font-weight: 600;
+    color: #ff7913;
+    padding-bottom: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.header-share-blocks .share-box + .share-box {
+    padding-left: 5px;
+}
+
+.custom-quiz-page .sb {
+    float: left !important;
+    margin-bottom: 15px;
+    position: relative;
+    width: auto;
+    padding: 0;
+    text-align: left !important;
+    right: auto;
+    bottom: auto;
+    height: auto;
+    background: none;
+
+}
+
+.custom-quiz-page .sb a.addthis_toolbox_item {
+    margin-right: 0;
+}
+
+.custom-quiz-page .sb div {
+    float: left !important;
+}
+
+.custom-quiz-page .addthis_button_facebook {
+    margin-left: 0px;
+}
+
+.custom-quiz-page .ui-tabs {
+    padding: 0;
+}
+
+.quiz-result-chart,
+.webform-component {
+    background: #ebebeb;
+    padding: 30px 25px 30px 50px;
+    margin: 30px 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.custom-quiz-page .webform-component--intro-page {
+    background: none;
+    padding: 0;
+}
+
+.custom-quiz-page .footer {
+    background: none;
+}
+
+.custom-quiz-page .footer p {
+    text-align: center;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.custom-quiz-page .casestudy-question-html {
+    margin-top: 20px;
+}
+
+.custom-quiz-page .casestudy-question-html p {
+    font-weight: normal;
+    padding-bottom: 0;
+}
+
+.custom-quiz-page .casestudy-result-html {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.step-box ul, .answer-graph {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.step-box label, .answer-graph label {
+    position: relative;
+}
+
+.answer-graph input[type=radio], .step-box input[type=radio] {
+    position: absolute;
+    left: -26px;
+    top: 0;
+}
+
+.step-box ul li, .answer-graph li {
+    padding-bottom: 15px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.case-study-question {
+    font-size: 22px;
+    line-height: 28px;
+    color: #0062a4;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.main-wrap {
+    max-width: 665px;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.brand-apha {
+    float: left;
+    width: 160px;
+    padding-top: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.brand-syk {
+    float: right;
+}
+
+.custom-quiz-page .progress {
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    margin: 10px 0;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #35458e;
+    border: 1px solid #35458e;
+}
+
+.custom-quiz-page .progress-status {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #35458e;
+    margin-top: 5px;
+}
+
+.custom-quiz-page .progress-bar {
+    background: #35458e;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #fff;
+    float: none;
+    height: 20px;
+    display: block;
+    *zoom: 1;
+    margin-bottom: 0;
+    text-align: left;
+    width: 0;
+}
+
+.custom-quiz-page .process-blocks {
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+
+.button-blocks {
+    text-align: right;
+}
+
+.custom-quiz-page .form-actions {
+    float: right;
+    margin: 30px 0 30px 0;
+    padding: 0;
+}
+
+.custom-quiz-page .restart-quiz-btn {
+    float: right;
+    border: 2px solid;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.8;
+    height: 32px;
+    margin-left: 5px;
+    color: #803870 !important;
+}
+
+.custom-quiz-page .share-your-results {
+    float: right;
+}
+
+.custom-casestudy-page form .form-actions input#edit-next, .custom-casestudy-page form .form-actions input.webform-next {
+    background: url(../images/btn-next.png) no-repeat;
+    width: 106px;
+    height: 28px;
+    border: 0;
+    border-radius: 7px;
+    text-indent: -999999px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.custom-casestudy-page form .form-actions input#edit-next, .custom-casestudy-page form .form-actions input.webform-previous {
+    background: url(../images/prevbtn.png) no-repeat;
+    width: 162px;
+    height: 28px;
+    border: 0;
+    border-radius: 7px;
+    text-indent: -999999px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.support-blocks {
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 0;
+}
+
+.support-blocks img {
+    margin-bottom: 10px;
+}
+
+.support-blocks p {
+    padding: 0;
+    text-align: center;
+}
+
+.support-blocks a {
+    color: #000;
+}
+
+.support-blocks a:hover {
+    color: #0062a4;
+}
+
+.answer-graph {
+    list-style: none;
+}
+
+.wrong-box:before, .correct-box:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -30px;
+    top: 3px;
+}
+
+.correct-box, .your-choice {
+    font-weight: bold;
+    position: relative;
+}
+
+.wrong-box {
+    position: relative;
+}
+
+.correct-box:before {
+    background: url(../images/right.png) no-repeat;
+}
+
+.wrong-box:before {
+    background: url(../images/cross.png) no-repeat;
+}
+
+.wrong-box.other-choice:before {
+    background: url(../images/cross_grey.png) no-repeat;
+}
+
+.correct-box .answer {
+    color: #009345;
+}
+
+.wrong-box .answer {
+    color: #ec1c24;
+}
+
+.wrong-box.wrong-check {
+    font-weight: bold;
+}
+
+.wrong-box .answer, .wrong-box .wrong-ans {
+    color: #ec1c24;
+    font-weight: bold;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 15px 15px;
+    border: 2px solid #ddd;
+    padding: 2px;
+}
+
+.webform-component--result-page h2 {
+    padding-bottom: 15px;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 34px;
+    color: #0062a4;
+}
+
+.rate-label {
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #0062a4;
+    padding-bottom: 15px;
+    font-style: normal;
+}
+
+.webform-component--result-page .more {
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: bold;
+    color: #0062a4;
+    padding-bottom: 20px;
+}
+
+.custom-quiz-page .webform-component--result-page {
+    font-weight: 300;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    text-align: center;
+    font-size: 11px;
+    padding: 15px 0;
+    line-height: 14px;
+    font-family: arial, sans-serif;
+}
+
+.copyright {
+    padding-top: 20px;
+}
+
+.custom-casestudy-page .top-msg-box {
+    height: 28px;
+    padding: 0;
+    text-align: center;
+    background: url("../img/top-msg-bg.png") repeat-x left top;
+    width: 100%;
+    position: absolute;
+}
+
+.custom-casestudy-page .top-msg-box .msg-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding: 0;
+}
+
+.custom-quiz-page .form-submit:hover {
+    box-shadow: none;
+}
+
+.custom-quiz-page .form-radios {
+    margin-left: 27px;
+}
+
+.custom-quiz-page .casestudy-form-required {
+    display: none;
+}
+
+/* Progress Bar Style */
+.quiz_progress_bar {
+    background: #ebebeb;
+    height: 60px;
+    padding-top: 35px;
+    margin-right: 35px;
+}
+
+.quiz_progress_bar_question {
+    background: #ebebeb;
+    padding: 15px 45px;
+    margin: 0;
+}
+
+.quiz_progress_bar .webform-progressbar-outer {
+    margin: 0;
+}
+
+.custom-quiz-page .webform-progressbar-page {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: -15px -4px;
+    border: 4px solid #664389;
+    background: none;
+    border-radius: 12px;
+    background-color: #ebebeb;
+}
+
+.custom-quiz-page .webform-progressbar-page.completed {
+    border: 4px solid #ED7955;
+    background-color: #ebebeb;
+}
+
+.custom-quiz-page .webform-progressbar-page.current {
+    border: 4px solid #ED7955;
+    background-color: #ebebeb;
+}
+
+.custom-quiz-page .webform-progressbar-inner {
+    background-color: #ED7955;
+    height: 5px;
+}
+
+.custom-quiz-page .webform-progressbar-outer {
+    position: relative;
+    border: none;
+    width: 100%;
+    height: 5px;
+    background-color: #664389;
+}
+
+.custom-quiz-page .webform-progressbar-page .webform-progressbar-page-label {
+    top: -30px;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #664389;
+}
+
+.custom-quiz-page .webform-progressbar-page.current .webform-progressbar-page-label, .custom-quiz-page .webform-progressbar-page.completed .webform-progressbar-page-label {
+    color: #ed7955;
+}
+
+.custom-quiz-page .footer-menu p, .custom-quiz-page .footer-menu {
+    padding: 20px 0 0 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.custom-quiz-page .footer-menu p {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.custom-quiz-page .casestudy-webform-content, .custom-quiz-page .webform-component--result-page {
+    margin: auto;
+    max-width: 665px;
+    word-wrap: break-word;
+}
+
+/* Result Page Share */
+.share-your-result-container {
+    position: relative;
+    float: right;
+}
+
+.custom-quiz-page .share-your-results.share-your-result-btn {
+    position: absolute;
+    right: 0;
+    width: 170px;
+    z-index: 999;
+    background: #fff;
+
+    border: 2px solid #803870;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.8;
+    height: 32px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.custom-quiz-page .share-your-results.social-icons a,
+.custom-quiz-page .share-your-results.social-icons a.at300b {
+    height: 32px;
+    width: 24px;
+    margin: 0 5px;
+}
+
+.custom-quiz-page .share-your-results .addthis_button_facebook {
+    /*background: none !important;*/
+    height: 32px;
+}
+
+.custom-quiz-page .share-your-results .addthis_button_facebook:hover {
+    /*background: none !important;*/
+}
+
+/* Share Result Page Icon Styles */
+.result_fb_share {
+    background: url(../images/small_social_icon_set.png) no-repeat 0 center transparent !important;
+    opacity: 1;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.result_tweet_share {
+    background: url(../images/small_social_icon_set.png) no-repeat -25px center transparent !important;
+    opacity: 1;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.result_in_share {
+    background: url(../images/small_social_icon_set.png) no-repeat -100px center transparent !important;
+    opacity: 1;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.custom-quiz-page .at-icon-wrapper {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    h2 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .rate-label {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .main-wrap {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .brand-apha {
+        padding-top: 10px;
+    }
+
+    .brand-syk {
+        width: 140px;
+    }
+
+    .custom-quiz-page .progress-status {
+        font-size: 16px;
+    }
+
+    .custom-quiz-page p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .custom-quiz-page .sb div {
+        width: 100%;
+        margin: 0;
+        text-align: left !important;
+    }
+
+    .custom-quiz-page .casestudy-webform-content, .custom-quiz-page .webform-component--result-page, .main-wrap, .study-wrapper {
+        max-width: 100%;
+    }
+
+    .custom-casestudy-page form .form-actions input#edit-next,
+    .custom-casestudy-page form .form-actions input.webform-next {
+        background: url(../images/btn-next_xs.png) no-repeat;
+        width: 80px;
+        height: 21px;
+    }
+
+    .custom-casestudy-page form .form-actions input#edit-next, .custom-casestudy-page form .form-actions input.webform-previous {
+        background: url(../images/prevbtn_xs.png) no-repeat;
+        width: 120px;
+        height: 21px;
+    }
+}
+
+@media (max-width: 767px) {
+    .webform-component--result-page .more {
+        margin-top: 40px;
+    }
+}
+
+.custom-quiz-page .question-container {
+    background: #ebebeb;
+}
+
+/* Progress Bar Style */
+
+.casestudy-progress-tracker.progress-tracker {
+    margin-top: 30px !important;
+}
+
+.casestudy-progress-tracker .progress-step .progress-text {
+    margin-top: -55px !important;
+}
+
+.progress-step.is-complete .progress-marker {
+    border: 4px solid #ED7955 !important;
+    background-color: #ebebeb !important;
+    color: #ebebeb !important;
+}
+
+.progress-step.is-complete::after {
+    background-color: #ED7955 !important;
+}
+
+.progress-step.is-active .progress-marker {
+    border: 4px solid #ED7955 !important;
+    background-color: #ebebeb !important;
+    color: #ebebeb !important;
+}
+
+.progress-step .progress-marker {
+    border: 4px solid #664389 !important;
+    background: none;
+    background-color: #ebebeb !important;
+    color: #ebebeb !important;
+}
+
+.progress-step::after {
+    background-color: #664389 !important;
+}
+
+.casestudy-progress-tracker .progress-step .progress-text {
+    color: #664389 !important;
+}
+
+.casestudy-progress-tracker .progress-step.is-active .progress-text,
+.casestudy-progress-tracker .progress-step.is-complete .progress-text {
+
+    color: #ED7955 !important;
+}
+
+.question-container {
+    background: #ebebeb;
+    padding: 30px 25px 30px 50px;
+    margin: 30px 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.casestudy-progress {
+    background: #ebebeb;
+    padding: 30px 45px 50px;
+    margin: 0;
+}
+
+.progress-title {
+    margin-top: 0;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.custom-quiz-page .casestudy-progress-tracker .progress-step.is-active .progress-title {
+    font-weight: normal;
+    color: #ed7955;
+}
+
+.custom-quiz-page .casestudy-progress-tracker.progress-tracker {
+    margin-bottom: 55px;
+}
+
+.custom-quiz-page button#edit-wizard-next {
+    background: url(/sites/all/modules/custom/casestudy/images/btn-next.png) no-repeat;
+    width: 106px;
+    height: 28px;
+    border: 0;
+    border-radius: 7px;
+    text-indent: -999999px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.custom-quiz-page button#edit-wizard-prev {
+    background: url(/sites/all/modules/custom/casestudy/images/prevbtn.png) no-repeat;
+    width: 162px;
+    height: 28px;
+    border: 0;
+    border-radius: 7px;
+    text-indent: -999999px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.custom-quiz-page button#edit-wizard-next.final-result-button {
+    background: url(/sites/all/modules/custom/casestudy/images/btn-final-results.png) no-repeat;
+    width: 367px;
+    height: 30px;
+}
+
+.custom-quiz-page .question-container h3 {
+    font-size: 26px;
+    line-height: 28px;
+    color: #0062a4;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.custom-quiz-page .question-container .casestudy-question-start {
+    color: #0062a4;
+}
+
+.custom-quiz-page label.control-label.option input[type=radio] {
+    margin-right: 12px;
+}
+
+.custom-quiz-page label.control-label.option {
+    padding-left: 25px;
+    text-indent: -25px;
+}
+
+.custom-quiz-page .footer-contacts-holder .span12 {
+    width: 100%;
+    text-align: center;
+}
+
+.custom-quiz-page .footer-contacts-holder nav {
+    display: none;
+}
+
+.custom-quiz-page .header-top img {
+    padding: 0;
+}
+
+.custom-quiz-page .region.region-content {
+    padding: 0;
+}
+
+.custom-quiz-page .casestudy-progress-tracker .progress-step.is-active .progress-title {
+    font-weight: normal;
+}
+
+.custom-quiz-page .quiz-final-result-page h2 {
+    padding-bottom: 15px !important;
+    font-style: normal !important;
+    font-size: 28px !important;
+    line-height: 34px !important;
+    color: #0062a4 !important;
+    font-weight: bold !important;
+}
+
+.more {
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: bold;
+    color: #0062a4;
+    padding-bottom: 20px;
+}
+
+.custom-casestudy-page .quiz-final-result-page .share-your-result-container a {
+    color: #803870 !important;
+}
+
+.custom-casestudy-page .quiz-final-result-page .share-your-result-container a:hover {
+    text-decoration: none !important;
+}
+
+.custom-quiz-page .share-your-results.share-your-result-btn a {
+    color: #803870 !important;
+}
+
+.custom-quiz-page .share-your-results.social-icons {
+    margin-right: 20px;
+}
+
+.custom-quiz-page .restart-quiz-btn:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .custom-quiz-page button#edit-wizard-next.final-result-button {
+        background: url(/sites/all/modules/custom/casestudy/images/btn_view_results_xs.png) no-repeat!important;
+        width: 161px!important;
+        height: 21px!important;
+    }
+
+    .custom-quiz-page button#edit-wizard-prev {
+        background: url(/sites/all/modules/custom/casestudy/images/prevbtn_xs.png) no-repeat;
+        width: 120px;
+        height: 21px;
+    }
+
+    .custom-quiz-page button#edit-wizard-next{
+        background: url(/sites/all/modules/custom/casestudy/images/btn-next_xs.png) no-repeat;
+        width: 80px;
+        height: 21px;
+    }
+}
+
+@media (max-width: 600px) {
+    .casestudy-progress-tracker .progress-step .progress-text {
+        margin-top: -80px !important;
+    }
+
+    .casestudy-progress-tracker .progress-text {
+        display: block!important;
+        overflow: visible!important;
+    }
+}

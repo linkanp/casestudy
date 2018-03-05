@@ -1,0 +1,156 @@
+# Schema for the configuration files of the Config Entity Example module.
+
+# This schema tells the config system how to read our config YML files.
+# See for example the file config/config_entity_example.robot.marvin.yml, which
+# contains our default config entity.
+
+# Documentation for schema files like this one is located here:
+# https://drupal.org/node/1905070
+
+casestudy.casestudy.*:
+  type: mapping
+  label: 'Casestudy'
+  mapping:
+    id:
+      type: string
+      label: 'Casestudy id'
+    uuid:
+      type: string
+      label: 'UUID'
+    label:
+      type: label
+      label: 'Label'
+    left:
+      type: boolean
+      label: 'Left Nav'
+    tab:
+      type: string
+      label: 'Tab Name'
+    path:
+      type: string
+      label: 'Path'
+    gallery:
+      type: integer
+      label: 'Gallery'
+    banner:
+      type: integer
+      label: 'Banner'
+    prefix:
+      type: string
+      label: 'Prefix'
+    status:
+      type: boolean
+      label: 'Status'
+    created:
+      type: string
+      label: 'Created'
+    description:
+      type: label
+      label: 'Administrative description'
+    elements:
+      type: text
+      label: 'Elements (YAML)'
+    tabs:
+      type: text
+      label: 'Tabs (YAML)'
+    final_page_title:
+      type: string
+      label: 'Final Page Title'
+    final_page_summary_title:
+      type: string
+      label: 'Final Page Title'
+    final_page_description:
+      type: label
+      label: 'Final Page HTML'
+    final_page_claim_button_show:
+      type: boolean
+      label: 'Final Page Claim Button Show'
+    final_page_claim_button_text:
+      type: string
+      label: 'Final Page Claim Button Text'
+    final_page_claim_url:
+      type: string
+      label: 'Final Page Claim URL'
+    langcode:
+      type: string
+      label: 'Default language'
+
+casestudy.question.*:
+  type: mapping
+  label: 'Question'
+  mapping:
+    id:
+      type: string
+      label: 'Question id'
+    uuid:
+      type: string
+      label: 'UUID'
+    label:
+      type: label
+      label: 'Label'
+    description:
+      type: label
+      label: 'Description'
+    answer_a:
+      type: string
+      label: 'Answer (a)'
+    answer_b:
+      type: string
+      label: 'Answer (b)'
+    answer_c:
+      type: string
+      label: 'Answer (c)'
+    answer_d:
+      type: string
+      label: 'Answer (d)'
+    correct_answer:
+      type: string
+      label: 'Correct Answer'
+    question_page_html:
+      type: label
+      label: 'Question Page HTML'
+    result_page_html:
+      type: label
+      label: 'Result Page HTML'
+    weight:
+      type: integer
+      label: 'Weight'
+    casestudy:
+      type: label
+      label: 'Casestudy ID'
+    type:
+      type: string
+      label: 'Type'
+    langcode:
+      type: string
+      label: 'Default language'
+
+
+casestudy.tab.*:
+  type: mapping
+  label: 'Tab'
+  mapping:
+    id:
+      type: string
+      label: 'Tab id'
+    uuid:
+      type: string
+      label: 'UUID'
+    label:
+      type: label
+      label: 'Tab Title ( Will Appear in Tab)'
+    title:
+      type: label
+      lable: 'Title'
+    description:
+      type: label
+      label: 'Description'
+    casestudy:
+      type: label
+      label: 'Casestudy ID'
+    created:
+      type: string
+      label: 'Created'
+    langcode:
+      type: string
+      label: 'Default language'

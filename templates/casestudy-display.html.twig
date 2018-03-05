@@ -1,0 +1,20 @@
+{% set casestudy_width = "col-lg-12" %}
+<div id ="casestudy-tabs" class="visible-desktop">
+    <ul>{{ form_tab_header | raw }} {{ tabs_header | raw }}</ul>
+    <div id="casestudy-tab-{{ casestudy.id }}">
+        <div class="row">
+
+            {% if left_nav == true %}
+                <div class="col-lg-3">
+                    {{ casestudy_legend }}
+                </div>
+                {% set casestudy_width = "col-lg-9" %}
+            {% endif %}
+            <div class="{{ casestudy_width }}">
+                {{ form }}
+            </div>
+        </div>
+
+    </div>
+    {{ tabs_content | raw }}
+</div>

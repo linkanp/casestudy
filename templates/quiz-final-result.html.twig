@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Default theme implementation for casestudy wizard progress tracker.
+ *
+ * Available variables:
+ * - rows: result options.
+ * @see template_preprocess_casestudy_progress_bar()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="quiz-final-result-page">
+    <h2>You have correctly answered...</h2><div class="rate-label">{{ data.correct_answer }} out of {{ data.total_answer }}</div>
+    <a href="{{ data.restart_link }}" class="restart-quiz-btn">Restart Quiz</a>
+    <div class="share-your-result-container">
+        <div class="share-your-results share-your-result-btn share-this-bottom addthis_toolbox">
+            <a class="at300b" title="Share Your Results"  href="#"><span>Share Your Results</span></a>
+        </div>
+        <div class="share-your-results social-icons">
+            <div>
+                <a class="result_fb_share" title="Send to Facebook"  href="{{ data.fb_url }}" target="_blank"></a>
+                <a class="result_tweet_share" title="Tweet This"        href="{{ data.t_url }}" target="_blank"></a>
+                <a class="result_in_share" title="Send to LinkedIn"  href="{{ data.in_url }}"  target="_blank"></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="more">Want to learn more?</div>
+</div>
+

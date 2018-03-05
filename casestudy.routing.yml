@@ -1,0 +1,203 @@
+# The routing.yml file defines the paths for our module.
+# Here we define the paths for our entity type's admin UI.
+
+entity.casestudy.canonical:
+  path: '/casestudy/{casestudy}'
+  defaults:
+    _controller: '\Drupal\casestudy\Controller\CasestudyController::addForm'
+    _title_callback: '\Drupal\casestudy\Controller\CasestudyController::title'
+
+entity.casestudy.canonical_redirect:
+  path: '/casestudy/{casestudy}/page/{page_id}'
+  defaults:
+    _controller: '\Drupal\casestudy\Controller\CasestudyController::redirectForm'
+    _title_callback: '\Drupal\casestudy\Controller\CasestudyController::title'
+
+entity.casestudy.pdf_download:
+  path: '/casestudy/{casestudy}/pdf-download'
+  defaults:
+    _controller: '\Drupal\casestudy\Controller\CasestudyController::pdfDownload'
+    _title_callback: '\Drupal\casestudy\Controller\CasestudyController::title'
+
+entity.casestudy.restart:
+  path: '/casestudy/{casestudy}/restart'
+  defaults:
+    _controller: '\Drupal\casestudy\Controller\CasestudyController::restartQuiz'
+    _title_callback: '\Drupal\casestudy\Controller\CasestudyController::title'
+
+entity.casestudy.share_result:
+  path: '/casestudy/{casestudy}/share-result/{sid}'
+  defaults:
+    _controller: '\Drupal\casestudy\Controller\CasestudyController::resutlShare'
+    _title_callback: '\Drupal\casestudy\Controller\CasestudyController::title'
+
+entity.casestudy.admin_index:
+  path: '/admin/config/casestudy'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Casestudy and Quiz Configurations'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+
+# This is the router item for listing all entities.
+entity.casestudy.list:
+  path: '/admin/config/casestudy/list'
+  defaults:
+    # '_entity_list' tells Drupal to use an entity list controller.
+    # We give the entity ID here. Drupal then looks in the entity's annotation
+    # and looks for the "list" entry under "controllers" for the class to load.
+    # @see \Drupal\Core\Entity\Enhancer\EntityRouteEnhancer
+    _entity_list: 'casestudy'
+    _title: 'Case Study and Quiz List'
+  requirements:
+    _permission: 'administer casestudy'
+
+# This is the router item for adding our entity.
+entity.casestudy.add_form:
+  path: '/admin/config/casestudy/add'
+  defaults:
+    _title: 'Add Casestudy'
+    # Like _entity_list above, _entity_form gives the entity type ID, only this
+    # time also lists the form separated by a period. Drupal looks in the
+    # annotation for the entity and locates the "add" entry under "form" for
+    # the form class to load.
+    # @see \Drupal\Core\Entity\Enhancer\EntityRouteEnhancer
+    _entity_form: casestudy.add
+  requirements:
+    _entity_create_access: casestudy
+
+# This is the router item for editing our entity.
+entity.casestudy.edit_form:
+  # Parameters may be passed to the form via the URL path. We name the
+  # parameter in the path by enclosing it in curly braces. For entity forms,
+  # we include the entity ID in the path by including a parameter with the
+  # same name as the entity type ID.
+  path: '/admin/config/casestudy/manage/{casestudy}'
+  defaults:
+    _title: 'Edit casestudy'
+    # List our add entry above, this _entity_form entry instructs Drupal to
+    # read our entity type's annonation, and look for the "edit" entry under
+    # "form".
+    _entity_form: casestudy.edit
+  requirements:
+    # This uses our entity access controller.
+    # @see \Drupal\Core\Entity\EntityAccessCheck
+    _entity_access: casestudy.update
+
+entity.casestudy.settings_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/settings'
+  defaults:
+    _title: 'Casestudy Settings'
+    _entity_form: casestudy.settings
+  requirements:
+    _entity_access: casestudy.settings
+
+entity.casestudy.final_page_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/final-page'
+  defaults:
+    _title: 'Casestudy Final Page'
+    _entity_form: casestudy.finalpagesettings
+  requirements:
+    _entity_access: casestudy.finalpagesettings
+
+# This is the router item for deleting an instance of our entity.
+entity.casestudy.delete_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/delete'
+  defaults:
+    _title: 'Delete casestudy'
+    _entity_form: casestudy.delete
+  requirements:
+    _entity_access: casestudy.delete
+
+
+
+# Casestudy Question route
+entity.question.list:
+  path: '/admin/config/casestudy/manage/{casestudy}/element/list'
+  defaults:
+    # '_entity_list' tells Drupal to use an entity list controller.
+    # We give the entity ID here. Drupal then looks in the entity's annotation
+    # and looks for the "list" entry under "controllers" for the class to load.
+    # @see \Drupal\Core\Entity\Enhancer\EntityRouteEnhancer
+    _entity_list: 'casestudy'
+    _title: 'Casestudy List'
+  requirements:
+    _permission: 'administer casestudy'
+entity.question.add:
+  path: '/admin/config/casestudy/manage/{casestudy}/element/add/question'
+  defaults:
+    _entity_form: question.add
+    _title: 'Question Add'
+entity.question.add_html:
+  path: '/admin/config/casestudy/manage/{casestudy}/element/add/html_page'
+  defaults:
+    _entity_form: question.add
+    _title: 'HTML Page Add'
+
+entity.question.edit_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/element/{question}/edit'
+  defaults:
+    _entity_form: question.edit
+    _title: 'Edit'
+
+entity.question.delete_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/element/{question}/delete'
+  defaults:
+    _entity_form: question.delete
+    _title: 'Element Delete'
+
+
+casestudy.global_settings:
+  path: '/admin/config/casestudy/global-settings'
+  defaults:
+    _form: '\Drupal\casestudy\Form\GlobalSettingsForm'
+    _title: 'Casestudy Global Settings'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+
+# Case Study Tabs Route
+entity.tab.add:
+  path: '/admin/config/casestudy/manage/{casestudy}/tab/add'
+  defaults:
+    _entity_form: tab.add
+    _title: 'Add Case Study or Quiz Tab'
+
+entity.tab.edit_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/tab/{tab}/edit'
+  defaults:
+    _entity_form: tab.edit
+    _title: 'Edit Case Study or Quiz Tab'
+
+entity.tab.delete_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/tab/{tab}/delete'
+  defaults:
+    _entity_form: tab.delete
+    _title: 'Tab Delete'
+
+entity.casestudy.tab_settings_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/tab-settings'
+  defaults:
+    _title: 'Case Study or Quiz Tab Settings'
+    _entity_form: casestudy.tabsettings
+  requirements:
+    _entity_access: casestudy.tabsettings
+
+entity.casestudy.analytics_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/analytics'
+  defaults:
+    _title: 'Case Study or Quiz Analytics'
+    _entity_form: casestudy.analytics
+  requirements:
+    _entity_access: casestudy.analytics
+
+entity.casestudy_submission.edit_form:
+  path: '/admin/config/casestudy/manage/{casestudy}/submission/{casestudy_submission}/edit'
+  defaults:
+    _entity_form: 'casestudy_submission.default'
+    _title: 'Casestudy Submission Edit'

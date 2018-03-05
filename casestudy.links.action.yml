@@ -1,0 +1,22 @@
+# Add some local task links to facilitate navigation.
+
+casestudy.add_action:
+  route_name: entity.casestudy.add_form
+  title: 'Add Case Study or Quiz'
+  appears_on:
+  #  - entity.casestudy.list
+
+casestudy.list_action:
+  route_name: entity.casestudy.list
+  title: 'Case Study and Quiz List'
+  appears_on:
+    - entity.casestudy.add_form
+    - entity.casestudy.edit_form
+
+casestudy.settings_action:
+  route_name: entity.casestudy.settings_form
+  title: 'Case Study and Quiz Settings'
+  appears_on:
+    - entity.question.add
+    - entity.question.add_html
+    - entity.question.edit_form

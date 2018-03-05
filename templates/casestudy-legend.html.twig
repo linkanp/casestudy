@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Default theme implementation for casestudy wizard progress tracker.
+ *
+ * Available variables:
+ * - casestudy: A casestudy.
+ * - current_page: Current wizard page key.
+ *
+ * @see template_preprocess_casestudy_progress_bar()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="cs-left-nav-menu-tooltip popover" style="display: none;">
+    <ul>
+        <li><img src="/sites/all/modules/custom/casestudy/img/answered.png" alt="legend-icon"> &nbsp;Answered</li>
+        <li><img src="/sites/all/modules/custom/casestudy/img/visited.png" alt="legend-icon"> &nbsp;Visited</li>
+        <li><img src="/sites/all/modules/custom/casestudy/img/not-visited.png" alt="legend-icon"> &nbsp;Not Visited</li>
+    </ul>
+</div>
+<div class="casestudy-left-navigation-menu">
+  <div class="casestudy-left-nav-menu-header">
+    Legend <a href="javascript:;" id="legend" data-toggle="popover" rel="popover" data-original-title="" title="">
+      <img src="/sites/all/modules/custom/casestudy/img/icon-legend.png" alt="legend-icon"></a>
+  </div>
+  <div class="casestudy-left-nav-menu-body" style="overflow-y: hidden; height: 590px;">
+    <ul style="width: 216px;">
+      {% for index, content in legend_content %}
+        <li class="{{ content.class }}"><a href="{{ content.link }}">{{ content.title }}</a></li>
+      {% endfor %}
+      {#<li class="visited"><a href="/casestudy/casestudy_test/page/2">Test HTML Page 1</a></li>#}
+      {#<li class="answered"><a href="/casestudy/casestudy_test/page/3">What other information is most important to obtain initially before making a product recommendation?</a></li>#}
+      {#<li class="visited"><a href="/casestudy/casestudy_test/page/4"> Answer of What other information is most important to obtain initially before making a product recommendation?</a></li>#}
+      {#<li><a href="/casestudy/casestudy_test/page/5">Test HTML Page 2</a></li><li><a href="/casestudy/casestudy_test/page/6">Test HTML Page 3</a></li>#}
+      {#<li class=""><a href="/casestudy/casestudy_test/page/7">Final Page</a></li>#}
+    </ul>
+  </div>
+</div>

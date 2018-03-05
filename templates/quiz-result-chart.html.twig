@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Default theme implementation for casestudy wizard progress tracker.
+ *
+ * Available variables:
+ * - rows: result options.
+ * @see template_preprocess_casestudy_progress_bar()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="quiz-result-chart">
+
+<ul class="answer-graph">
+    {% for index, content in rows %}
+      <li class="{{ content.class }}">
+        <span class="answer">{{ content.answer }} </span>{{ content.value }}
+        <div class="progress">
+          <span class="progress-bar" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100" style="width: {{ content.percentage }}%;"></span>
+        </div>
+        <div class="progress-status">{{ content.percentage }}% of your peers selected this answer</div>
+      </li>
+
+  {% endfor %}
+</ul>
+</div>
+

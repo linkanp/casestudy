@@ -1,0 +1,1267 @@
+h1, h2, h3, p {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.custom-casestudy-page h1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #06526A;
+    line-height: 26px;
+}
+
+.custom-casestudy-page h2, h3 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.custom-casestudy-page h3 {
+    font-size: 18px;
+}
+
+.custom-casestudy-page p {
+    font-size: 13px;
+}
+
+.case-study-question, .case-study-question-description, label.option {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.casestudy-answer-question, .casestudy-result-page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #06526A;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+
+.case-study-question span.casestudy-question-start {
+    color: #E1735A;
+}
+
+.case-study-question-description {
+    font-size: 13px;
+}
+
+.custom-casestudy-page #content {
+    background: none !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.custom-casestudy-page .ui-widget-content {
+    background: none;
+    border: none;
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-panel {
+    background: url("../img/tab-bg.png") repeat scroll 50% 50% transparent;
+    border-width: 0;
+    display: block;
+    padding: 1em 1.4em;
+}
+
+.final-result-page-custom .ui-tabs .ui-tabs-panel {
+    width: 906px;
+}
+
+.custom-casestudy-page .ui-tabs {
+    padding: 0;
+}
+
+.custom-casestudy-page .ui-widget-header {
+    background: none;
+    border: none;
+    color: #222222;
+    font-weight: bold;
+}
+
+.custom-casestudy-page .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #67B0D1 !important;
+    border: 0 !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-style: italic;
+}
+
+.custom-casestudy-page .castudytabs-intro.ui-state-default {
+    background: #223E92 !important;
+}
+
+.custom-casestudy-page .ui-widget-content .ui-state-active {
+    background: #FFFFFF !important;
+    border: 0 !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    font-style: italic;
+}
+
+.custom-casestudy-page .ui-widget-content .ui-state-active a:active,
+.custom-casestudy-page .ui-widget-content .ui-state-active a:focus {
+    outline: none;
+}
+
+.custom-casestudy-page .ui-state-default a, .ui-widget-content .ui-state-default a, .ui-widget-header .ui-state-default a {
+    color: #ffffff !important;
+}
+
+.custom-casestudy-page .ui-widget-content .ui-state-active a {
+    color: #535353 !important;
+}
+
+.custom-casestudy-page .ui-corner-top {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.custom-casestudy-page form .form-actions input[type=submit],
+.custom-casestudy-page form .form-actions button {
+    background: url(/sites/all/modules/custom/casestudy/img/arrow-next.png) no-repeat 65px center;
+    padding: 12px 37px 12px 12px;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #3ABEC0 !important;
+    font-size: 22px;
+    font-weight: lighter !important;
+    color: #ffffff;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+}
+
+.custom-casestudy-page form .form-actions input#edit-next, .custom-casestudy-page form .form-actions input.webform-next {
+    background: url(/sites/all/modules/custom/casestudy/img/arrow-next.png) no-repeat 65px center;
+    padding: 12px 37px 12px 12px;
+}
+
+.custom-casestudy-page form .form-actions input#edit-next,
+.custom-casestudy-page form .form-actions input.webform-next {
+    background: url(../img/arrow-next.png) no-repeat 65px center;
+    padding: 12px 37px 12px 12px;
+    cursor: pointer;
+}
+
+.custom-casestudy-page form .form-actions .claim-your-credit {
+    background: url(../img/arrow-next.png) no-repeat right 10px center;
+    *background: url(../img/arrow-next.png) no-repeat 96% center;
+    padding: 12px 37px 12px 12px;
+}
+
+.custom-casestudy-page form .form-actions input#edit-previous,
+.custom-casestudy-page form .form-actions input.webform-previous,
+.custom-casestudy-page form .form-actions input#edit-previous--2 {
+    background: url(../img/arrow-prev.png) no-repeat 12px center;
+    padding: 12px 12px 12px 37px;
+    cursor: pointer;
+}
+
+.custom-casestudy-page form .form-actions {
+    position: absolute;
+    right: -10px;
+    bottom: -100px;
+}
+
+.custom-casestudy-page .galleryformatter .gallery-thumbs {
+    background: url(../img/gallery-thumbs-bg.png) repeat-x left top transparent;
+    height: 118px;
+    margin-bottom: 30px !important;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .slide-button {
+    background: none !important;
+    height: 45px !important;
+    width: 45px !important;
+}
+
+.custom-casestudy-page .galleryformatter .next-slide, .custom-casestudy-page .galleryformatter-greenarrows .next-slide {
+    background-image: url(../img/gallery-next-arrow.png) !important;
+    background-position: 0 0 !important;
+
+}
+
+.custom-casestudy-page .galleryformatter .prev-slide, .custom-casestudy-page .galleryformatter-greenarrows .prev-slide {
+    background-image: url(../img/gallery-prev-arrow.png) !important;
+    background-position: 0 0 !important;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs .wrapper {
+    border-bottom: none !important;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs .wrapper,
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs li.active a,
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs li a:hover {
+    background-image: none !important;
+}
+
+.custom-casestudy-page .galleryformatter .gallery-slides {
+    height: 412px;
+    padding: 10px 8px;
+    width: 594px;
+    background: #e7ede9;
+    border: 2px solid #88A0A0;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs li img {
+    border: 4px solid #009999;
+    margin: 0;
+    height: 65px;
+    width: 96px;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs li a {
+    padding: 7px 0 !important;
+
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs li.active img, .custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs li a:hover img {
+    border: 4px solid #009999;
+    height: 90px;
+    width: 121px;
+}
+
+.custom-casestudy-page .ui-widget {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.custom-casestudy-page .ui-tabs-panel .webform-client-form,
+.custom-casestudy-page .ui-tabs-panel .webform-client-form p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.custom-casestudy-page p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.custom-casestudy-page h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #06526A !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+.custom-casestudy-page h2 {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #666666 !important;
+    font-weight: lighter !important;
+    font-size: 22px !important;
+    font-style: italic !important;
+    margin-bottom: 20px !important;
+    line-height: 30px;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs li {
+    margin-top: -12px !important;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs li a {
+    display: block !important;
+    line-height: 90px !important;
+    padding: 19px 0 7px !important;
+    text-align: center !important;
+}
+
+.custom-casestudy-page .gallery-thumbs .wrapper, .gallery-slides {
+    overflow: visible !important;
+}
+
+.custom-casestudy-page .galleryformatter .next-slide {
+    right: -60px !important;
+}
+
+.custom-casestudy-page .galleryformatter .prev-slide {
+    left: -60px !important;
+}
+
+.custom-casestudy-page .galleryformatter .slide-button {
+    top: 50% !important;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .slide-button {
+    opacity: 1 !important;
+}
+
+.custom-casestudy-page #content #page-title {
+    display: none;
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-nav li {
+    border-bottom: 0 none !important;
+    float: left;
+    height: 50px;
+    list-style: none outside none;
+    background: red;
+    margin: 3px 0.2em 1px 0;
+    /*max-width: 174px;*/
+    /*padding: 0 15px;*/
+    position: relative;
+    text-align: center;
+    top: 1px;
+    word-wrap: break-word;
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    padding-bottom: 0 !important;
+}
+
+.custom-casestudy-page .header-top-bg {
+    background-image: url("../img/cs-banner-bg.png");
+    background-position: center bottom;
+    background-repeat: repeat;
+    height: auto;
+    padding-bottom: 0;
+    min-height: 0;
+}
+
+.custom-casestudy-page .footer-top {
+    display: none;
+}
+
+.custom-casestudy-page .footer-container-repeat {
+    /* background-image: none;
+     background-color: #2F4882;
+     background-repeat: none;*/
+    min-height: 40px;
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-nav {
+    padding: 0 !important;
+    margin: 20px 0 0;
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-nav li {
+    white-space: normal !important;
+    max-height: 48px;
+
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-nav li a {
+    float: left;
+    padding: 7px 21px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-nav li.one-word a {
+    line-height: 35px;
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-nav li.one-word.one-word-iefix a {
+    /*line-height: 18px;
+    line-height: 18px\9; */
+    *line-height: 18px;
+    *padding-top: 2px;
+
+}
+
+.custom-casestudy-page .ui-tabs .ui-tabs-nav li.multiple-word a {
+    *padding-top: 2px;
+
+}
+
+.custom-casestudy-page a.addthis_button_print {
+    background: url("../img/print-icon.png") no-repeat 20px center #51AAD2 !important;
+    border: 0 none !important;
+    border-radius: 0 0 0 0 !important;
+    box-shadow: none !important;
+    color: #FFFFFF !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    width: 135px !important;
+    height: 54px !important;
+    float: right !important;
+}
+
+.custom-casestudy-page a.addthis_button_print span {
+    line-height: 50px;
+    padding-left: 55px;
+}
+
+.custom-casestudy-page a.case-study-save-pdf {
+    background: url("../img/save-icon.png") no-repeat scroll 18px center #3ABEC0 !important;
+    border: 0 none !important;
+    border-radius: 0 0 0 0 !important;
+    box-shadow: none !important;
+    color: #FFFFFF !important;
+    float: right !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    height: 54px !important;
+    width: 158px !important;
+    margin-left: 1%;
+}
+
+.custom-casestudy-page a.case-study-save-pdf span {
+    line-height: 50px;
+    padding-left: 55px;
+}
+
+.custom-casestudy-page .casetudy-sb {
+    margin-bottom: 20px !important;
+}
+
+.custom-casestudy-page .casestudy-result-html, #gchart {
+    background: #ffffff;
+    padding: 20px 12px;
+}
+
+.custom-casestudy-page .body-container {
+    background-image: url("../img/cs-container-bg-top-2.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+    margin-top: 0;
+}
+
+.custom-casestudy-page .cs-header {
+    text-align: center;
+}
+
+.custom-casestudy-page #content > div > div > .content {
+    padding: 20px 0;
+}
+
+.custom-casestudy-page .galleryformatter li {
+    margin-left: -10px;
+    margin-right: -10px;
+    overflow-x: hidden !important;
+}
+
+.custom-casestudy-page .gallery-frame {
+    margin: 0 10px;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-thumbs .wrapper {
+    left: 45px;
+}
+
+.custom-casestudy-page .ui-corner-bottom {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.custom-casestudy-page .footer-contacts {
+    background: none !important;
+}
+
+.region-footer-message p {
+    font-size: 12px !important;
+    color: #cccccc !important;
+    font-weight: normal !important;
+    text-align: center;
+    margin-bottom: 0 !important;
+    padding: 16px 0 0 !important;
+}
+
+.custom-casestudy-page form {
+    margin-bottom: 0 !important;
+}
+
+.gallery-slides {
+    overflow-x: hidden;
+}
+
+.custom-casestudy-page .casestudy-result-html ul li {
+    font-size: 13px;
+    line-height: 26px;
+}
+
+/* ----------------------------------------------  Inputs, textareas and selects  ---------------------------------------------- */
+
+.custom-casestudy-page input[type="text"],
+.custom-casestudy-page textarea,
+.custom-casestudy-page select,
+.custom-casestudy-page div.styled,
+.custom-casestudy-page input[type="file"] {
+    width: 12em;
+    border-radius: 2px;
+    border: solid 1px #ccc;
+    padding: 0.4em;
+}
+
+.custom-casestudy-page div.styled,
+.custom-casestudy-page select,
+.custom-casestudy-page input[type="submit"],
+.custom-casestudy-page input[type="button"],
+.custom-casestudy-page input[type="file"]:after {
+    /*background: white url(/sites/all/modules/custom/casestudy/img/formelements-select.png) no-repeat center right;*/
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.custom-casestudy-page input[type="text"],
+.custom-casestudy-page textarea,
+.custom-casestudy-page input[type="file"] {
+    background-color: #f5f5f5;
+    -webkit-box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.ie9 .custom-casestudy-page input[type="text"] {
+    line-height: normal;
+}
+
+/* Get the stuff to line up right */
+
+.custom-casestudy-page textarea {
+    width: 100%;
+    height: 10em;
+}
+
+/* ----------------------------------------------  Checkboxes and Radio inputs  ----------------------------------------------  */
+
+.custom-casestudy-page .form-radios input[type="radio"],
+.custom-casestudy-page .form-radios input[type="checkbox"] {
+    position: absolute;
+    left: -999em;
+}
+
+.custom-casestudy-page .form-radios label:before {
+    display: inline-block;
+    position: relative;
+    top: 0.25em;
+    left: -2px;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url(/sites/all/modules/custom/casestudy/img/formelements.png);
+}
+
+.custom-casestudy-page .form-radios input[type="checkbox"] + label:before {
+    background-position: 0 -25px;
+}
+
+.custom-casestudy-page .form-radios input[type="checkbox"]:checked + label:before {
+    background-position: 0 0;
+}
+
+.custom-casestudy-page .form-radios input[type="radio"] + label:before {
+    background-position: -25px -25px;
+}
+
+.custom-casestudy-page .form-radios input[type="radio"]:checked + label:before {
+    background-position: -25px 0;
+}
+
+/* Remove the custom styling for IE 7-8 */
+
+.ie8 .custom-casestudy-page .form-radios label:before {
+    display: none;
+    content: none;
+}
+
+.ie8 .custom-casestudy-page .form-radios input[type="checkbox"],
+.ie8 .custom-casestudy-page .form-radios input[type="radio"],
+.ie7 .custom-casestudy-page .form-radios input[type="checkbox"],
+.ie7 .custom-casestudy-page .form-radios input[type="radio"] {
+    position: static;
+    left: 0;
+}
+
+.ie8 .custom-casestudy-page .form-radios input[type="checkbox"],
+.ie8 .custom-casestudy-page .form-radios input[type="radio"] {
+    position: relative;
+    top: -3px;
+    margin-right: 0.5em;
+}
+
+.custom-casestudy-page .form-radios input[type="text"]:focus,
+.custom-casestudy-page .form-radios textarea:focus {
+    border-color: #000;
+}
+
+.custom-casestudy-page .gallery-frame {
+    width: 100%;
+}
+
+.custom-casestudy-page form #begin input#edit-next {
+    background: url("../img/arrow-next.png") no-repeat scroll 77px center rgba(0, 0, 0, 0);
+    padding: 12px 37px 12px 12px;
+}
+
+.custom-casestudy-page .node-photo-gallery h2 {
+    display: none;
+}
+
+.custom-casestudy-page .case-study-slideshow-intro {
+    padding-top: 15px;
+}
+
+.custom-casestudy-page .casestudy-form-required {
+    color: #FF0000;
+}
+
+.custom-casestudy-page .form-required {
+    display: none;
+}
+
+.case-study-slideshow-intro h2 {
+    line-height: 30px;
+}
+
+.custom-casestudy-page .galleryformatter .gallery-thumbs ul {
+    margin: 0 auto 0 40px !important;
+}
+
+.custom-casestudy-page .ui-accordion h3.ui-accordion-header {
+    background: none repeat scroll 0 0 #67B0D1;
+    border: 0 none !important;
+    font-size: 20px !important;
+    font-style: italic;
+    font-weight: 400 !important;
+    color: #ffffff;
+}
+
+.custom-casestudy-page .ui-accordion h3.ui-accordion-header:hover,
+.custom-casestudy-page .ui-accordion h3.ui-accordion-header:hover a {
+    color: #535353 !important;
+}
+
+.custom-casestudy-page .ui-accordion h3.ui-state-active {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    color: #535353 !important;
+    border-radius: 3px;
+}
+
+.custom-casestudy-page .ui-accordion h3.ui-state-active a {
+    color: #535353 !important;
+}
+
+.custom-casestudy-page .ui-accordion-content {
+    background: url("../img/tab-bg.png") repeat scroll 50% 50% rgba(0, 0, 0, 0) !important;
+    border-width: 0;
+    display: block;
+    padding: 1em 1.4em;
+}
+
+.custom-casestudy-page .gallery-slides .gallery-slide {
+    position: absolute;
+    width: 98%;
+}
+
+.custom-casestudy-page #casestudy-accordion .gallery-thumbs {
+    display: none;
+}
+
+.custom-casestudy-page #casestudy-accordion form .form-actions {
+    position: static;
+    float: right;
+}
+
+.custom-casestudy-page #casestudy-accordion span.view-full {
+    display: none;
+}
+
+.custom-casestudy-page .webform-client-form .webform-component {
+    clear: both;
+    padding-top: 15px;
+}
+
+.custom-casestudy-page .galleryformatter-greenarrows .gallery-slides .panel-overlay {
+    background: url("../img/bg-trans-blue.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.custom-casestudy-page .overlay-inner h4,
+.custom-casestudy-page .overlay-inner h3 {
+    font-weight: normal !important;
+}
+
+.custom-casestudy-page #casestudy-tabs .media-image, .custom-casestudy-page #webform-component-result-page .media-image {
+    padding: 10px;
+}
+
+.custom-casestudy-page #casestudy-accordion .overlay-inner h4,
+.custom-casestudy-page #casestudy-accordion .overlay-inner h3 {
+    line-height: 15px;
+    font-size: 15px;
+}
+
+.custom-casestudy-page #casestudy-accordion .galleryformatter .slide-button {
+    top: 30% !important;
+}
+
+.custom-casestudy-page #casestudy-accordion .galleryformatter .prev-slide {
+    left: -38px !important;
+}
+
+.custom-casestudy-page #casestudy-accordion .galleryformatter .next-slide {
+    right: -38px !important;
+}
+
+.custom-casestudy-page #casestudy-accordion .form-radios input[type="radio"], .custom-casestudy-page #casestudy-accordion .form-radios input[type="checkbox"] {
+    left: auto;
+}
+
+#casestudy-accordion input[type="image"], #casestudy-accordion input[type="checkbox"], #casestudy-accordion input[type="radio"] {
+    margin: 11px 0 0 4px;
+    z-index: 99;
+}
+
+.custom-casestudy-page #casestudy-accordion .form-radios label:before {
+    background-image: none;
+}
+
+.custom-casestudy-page .top-msg-box {
+    height: 28px;
+    padding: 15px 0;
+    text-align: center;
+    background: url("../img/top-msg-bg.png") repeat-x left top;
+    width: 100%;
+    position: absolute;
+}
+
+.custom-casestudy-page .top-msg-box .msg-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.custom-casestudy-page .node-case-study-tabs {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 14px 12px;
+
+}
+
+.custom-casestudy-page .casestudy-question-html {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 14px 12px;
+}
+
+.custom-casestudy-page .whitebg {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 14px 12px;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    border: 1px solid #ffffff !important;
+    max-height: 48px;
+}
+
+.custom-casestudy-page button {
+    cursor: pointer;
+}
+
+.custom-casestudy-page form .form-actions button.webform-button--previous {
+    background: url(/sites/all/modules/custom/casestudy/img/arrow-prev.png) no-repeat 12px center;
+    padding: 12px 12px 12px 37px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.custom-casestudy-page .popover ul {
+    padding-left: 15px;
+}
+
+.custom-casestudy-page .popover ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+/*---------------------------------------footer-----------------------------------------------------*/
+.custom-casestudy-page .footer-top {
+    display: none;
+}
+
+.footer-top {
+    height: 8px;
+    background-color: #3d0520;
+}
+
+.footer-container {
+    background-position: 0 0;
+}
+
+.footer-container {
+    background-image: url(/sites/all/themes/ampha/images/APhA-footer-bg-new.png);
+    background-repeat: repeat;
+    background-position: -1px 0;
+    border-top: 1px solid #cccccc;
+    margin-top: 40px;
+}
+
+.custom-casestudy-page .footer-container-repeat {
+    background-image: none;
+    background-color: #2F4882;
+    background-repeat: none;
+    min-height: 40px;
+}
+
+.footer-container-repeat {
+    background-image: url(/sites/all/themes/ampha/images/APhA-footer-bg-repeat.png);
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+    min-height: 310px;
+}
+
+.span12 {
+    width: 100%;
+}
+
+.region-footer-bottom nav {
+    width: 270px;
+    margin: 0 auto;
+}
+
+.region-footer-bottom nav ul li a {
+    font-size: 14px;
+    margin: 8px 5px;
+    color: #ffffff !important;
+}
+
+.region-footer-bottom nav ul li a:hover {
+    color: #eeeeee !important;
+}
+
+.region-footer-bottom nav ul li + li:before {
+    content: "|";
+    display: inline-block;
+    color: #ffffff;
+}
+
+.region-footer-bottom p {
+    font-size: 12px !important;
+    color: #cccccc !important;
+    font-weight: normal !important;
+    text-align: center;
+    margin-bottom: 0 !important;
+    padding: 6px 0 0 !important;
+}
+
+.footer-menu .on-the-web {
+    float: left;
+}
+
+.footer-menu .on-the-web a {
+    display: block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-left: 7px;
+}
+
+.footer-menu .on-the-web a.Facebook {
+    background: url(/sites/all/modules/custom/casestudy/img/social_icon_set.png) no-repeat scroll 0 0 transparent;
+    background-position: 0 center;
+}
+
+.footer-menu .on-the-web a.Twitter {
+    background: url(/sites/all/modules/custom/casestudy/img/social_icon_set.png) no-repeat scroll 0 0 transparent;
+    background-position: -29px center;
+}
+
+.footer-menu .on-the-web a.YouTube {
+    background: url(/sites/all/modules/custom/casestudy/img/social_icon_set.png) no-repeat scroll 0 0 transparent;
+    background-position: -58px center;
+}
+
+.footer-menu .on-the-web a.rss {
+    background: url(/sites/all/modules/custom/casestudy/img/social_icon_set.png) no-repeat scroll 0 0 transparent;
+    background-position: -87px center;
+}
+
+.footer-menu .on-the-web a.LinkedIn {
+    background: url(/sites/all/modules/custom/casestudy/img/social_icon_set.png) no-repeat scroll 0 0 transparent;
+    background-position: -116px center;
+}
+
+.footer-menu .on-the-web a.Blogger {
+    background: url(/sites/all/modules/custom/casestudy/img/social_icon_set.png) no-repeat scroll 0 0 transparent;
+    background-position: -145px center;
+    width: 37px;
+}
+
+.connect-text {
+    color: #FFFFFF;
+    font-family: 'OpenSansLight';
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: bottom;
+    float: left;
+    margin-top: 12px;
+}
+
+.custom-casestudy-page .footer-container-repeat .region.region-footer {
+    width: 100%;
+}
+
+.custom-casestudy-page .footer-container-repeat .region.region-footer section#block-casestudyontheweb {
+    float: right;
+    margin-top: 20px;
+}
+
+.btn-claim {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #3ABEC0 !important;
+    font-size: 22px !important;
+    font-weight: lighter !important;
+    color: #ffffff !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+    border: 0 !important;
+    padding: 12px !important;
+    cursor: pointer;
+}
+
+/*footer*/
+
+@media print {
+    .custom-casestudy-page #edit-actions {
+        display: none;
+    }
+
+    .custom-casestudy-page .form-radios label:before {
+        background-image: none;
+        width: 10px;
+    }
+
+    .custom-casestudy-page .form-radios input[type="radio"], .custom-casestudy-page .form-radios input[type="checkbox"] {
+        left: 0;
+        position: static;
+    }
+
+    .custom-casestudy-page #edit-actions--2 {
+        display: none;
+    }
+
+    .custom-casestudy-page .casestudy-left-navigation-menu {
+        display: none;
+    }
+}
+
+.custom-casestudy-page .container a {
+    color: #0088CC;
+}
+
+.custom-casestudy-page .container a:hover {
+    color: #A5004E;
+}
+
+.custom-casestudy-page .container .webform-component-markup a {
+    color: #0088CC;
+}
+
+.custom-casestudy-page .container .webform-component-markup a:hover {
+    color: #A5004E;
+}
+
+.custom-casestudy-page .final-page-question {
+
+    padding-bottom: 30px;
+}
+
+.custom-casestudy-page .final-page-summry-title {
+    padding-top: 25px;
+    padding-top: 30px;
+
+}
+
+#casestudy-error-message {
+    background: url("/sites/all/modules/custom/casestudy/img/tab-bg.png") repeat scroll 50% 50% rgba(0, 0, 0, 0);
+    border-width: 0;
+    display: block;
+    padding: 1em 1.4em;
+    min-height: 400px;
+}
+
+/********** Case Study Left menu start**************/
+
+.custom-casestudy-page .casestudy-left-navigation-menu {
+    width: 216px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.custom-casestudy-page .casestudy-left-navigation-menu ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.custom-casestudy-page .casestudy-left-navigation-menu ul li {
+    list-style: none;
+    padding: 12px 15px;
+    border-left: 4px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background: #ffffff;
+    margin: 2px 0;
+}
+
+.custom-casestudy-page .container .casestudy-left-nav-menu-body > ul > li > a {
+    color: #333333;
+    font-size: 14px;
+}
+
+.custom-casestudy-page .casestudy-left-navigation-menu ul li.answered {
+    border-left: 4px solid #008000;
+    background: #EBF5EB;
+}
+
+.custom-casestudy-page .casestudy-left-navigation-menu ul li.visited {
+    border-left: 4px solid #5BC0DE;
+    background: #F4F8FA;
+}
+
+.custom-casestudy-page .casestudy-left-navigation-exist {
+    float: right;
+    width: 687px;
+}
+
+.custom-casestudy-page .casestudy-left-navigation-not-exist {
+    float: none;
+    width: 100%;
+}
+
+.custom-casestudy-page .body-wrapper {
+    float: left;
+}
+
+.custom-casestudy-page #casestudy-tabs .introPage {
+    float: none;
+}
+
+.custom-casestudy-page .casestudy-left-nav-menu-header {
+    padding: 5px;
+    width: 206px;
+    background: #CCCCCC;
+    color: #ffffff;
+    text-align: right;
+    font-size: 16px;
+}
+
+.custom-casestudy-page .casestudy-left-nav-menu-body {
+    overflow-y: auto !important;
+    overflow-x: hidden;
+}
+
+.custom-casestudy-page .casestudy-left-nav-menu-header {
+    width: 100% !important;
+}
+
+.custom-casestudy-page .casestudy-left-nav-menu-header a img {
+    opacity: 0.5;
+}
+
+.custom-casestudy-page .casestudy-left-nav-menu-header a img:hover {
+    opacity: 1;
+}
+
+.custom-casestudy-page .cs-left-nav-menu-tooltip ul {
+    margin: 0;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+.custom-casestudy-page .cs-left-nav-menu-tooltip ul li {
+    list-style: none !important;
+    padding: 10px;
+    border: 1px red;
+}
+
+.custom-casestudy-page a.case-study-save-pdf {
+    position: relative;
+    right: 15px;
+    top: 0;
+    left: auto;
+    padding: 12px 10px 10px 55px;
+}
+
+.custom-casestudy-page a.addthis_button_print {
+    position: relative;
+    right: 0;
+    top: 0;
+    left: auto;
+    padding: 12px 10px 10px 55px;
+}
+
+.custom-casestudy-page a.case-study-save-pdf:hover,
+.custom-casestudy-page a.addthis_button_print:hover {
+    text-decoration: none;
+}
+
+.custom-casestudy-page a.addthis_button_print span {
+    display: none;
+}
+
+/********** Case Study Left menu end**************/
+
+.custom-casestudy-page .legend {
+    background: url("../img/icon-legend.png") no-repeat 6px center;
+    width: 18px;
+    height: 18px;
+    display: block !important;
+}
+
+.custom-casestudy-page .webform-client-form {
+    padding: 10px 0 0 10px !important;
+}
+
+.custom-casestudy-page .popover-inner {
+    background: #CCC;
+    width: 200px;
+    border-radius: 12px;
+    padding: 2px;
+    box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.6);
+}
+
+.custom-casestudy-page .popover-title {
+    display: none;
+}
+
+.custom-casestudy-page .popover-content {
+    border-radius: 12px;
+}
+
+.custom-casestudy-page .popover-content ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.custom-casestudy-page .popover-content li {
+    list-style: none;
+}
+
+.custom-casestudy-page .popover-content li + li {
+    margin-top: 15px;
+}
+
+.custom-casestudy-page .popover .arrow, .custom-casestudy-page .popover .arrow:after {
+    border-color: transparent;
+    border-style: solid;
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.custom-casestudy-page .popover.right .arrow {
+    border-width: 11px;
+}
+
+.custom-casestudy-page .popover.right .arrow {
+    border-left-width: 0;
+    border-right-color: #CCC;
+    left: -4px;
+    margin-top: -11px;
+    top: 50%;
+}
+
+.custom-casestudy-page .popover .arrow, .custom-casestudy-page .popover .arrow:after {
+    border-color: transparent;
+    border-style: solid;
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.custom-casestudy-page .popover .arrow:after {
+    border-width: 10px;
+    content: "";
+}
+
+.custom-casestudy-page .popover.right .arrow:after {
+    border-left-width: 0;
+    border-right-color: #ffffff;
+    bottom: -10px;
+    left: 1px;
+}
+
+.page-admin-config-casestudysettings .form-item-is-show-claim-your-credit-btn {
+    padding-top: 30px;
+}
+
+fieldset .fieldset-wrapper input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 10px;
+}
+
+/* Casestudy Gallery Style */
+.custom-casestudy-page .photo-gallery h2,
+.custom-casestudy-page .photo-gallery .links,
+.custom-casestudy-page .photo-gallery .share-block{
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .custom-casestudy-page .casestudy-left-navigation-menu {
+        display: none;
+    }
+
+    .custom-casestudy-page .body-wrapper {
+        float: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .custom-casestudy-page .casestudy-left-navigation-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-casestudy-page .casestudy-left-navigation-menu {
+        display: none;
+    }
+
+    .custom-casestudy-page .final-result-page-custom form .form-actions input#edit-previous,
+    .custom-casestudy-page .final-result-page-custom form .form-actions input#edit-previous--2 {
+        background: url("../img/arrow-prev.png") no-repeat 6px center;
+        padding: 12px 10px 12px 30px;
+        margin-right: 5px;
+    }
+
+    .custom-casestudy-page form .form-actions .claim-your-credit {
+        background: url("../img/arrow-next.png") no-repeat right 6px center;
+        padding: 12px 30px 12px 10px;
+
+    }
+
+    .custom-casestudy-page form .form-actions {
+        margin-top: 13px;
+    }
+
+    .custom-casestudy-page .final-result-page-custom form .form-actions input#edit-previous,
+    .custom-casestudy-page form .form-actions input#edit-previous--2,
+    .custom-casestudy-page form .form-actions input[type="submit"].claim-your-credit {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .casestudy-left-navigation-menu {
+        display: none;
+    }
+
+    .casestudy-webform-content.casestudy-left-navigation-exist {
+        float: none;
+        width: auto;
+    }
+
+    .final-result-page-custom .ui-tabs .ui-tabs-panel {
+        width: auto;
+    }
+
+    .custom-casestudy-page form .form-actions {
+        right: 0;
+    }
+}

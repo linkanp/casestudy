@@ -1,0 +1,81 @@
+
+
+.casestudy-result-page-title {
+    color: #06526A;
+    font-family: Open Sans,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #666666;
+    font-size: 18px !important;
+    font-style: italic !important;
+    font-weight: lighter !important;
+    line-height: 30px;
+    margin-bottom: 20px !important;
+}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    padding: 10px;
+}
+.casestudy-result-html {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 20px 12px;
+    font-family: Open Sans,sans-serif;
+    color: #575757;
+    font-size: 10px;
+    font-weight: normal;
+}
+.casestudy-result-html h2 {
+    color: #666666 !important;
+    font-family: Open Sans,sans-serif !important;
+    font-size: 18px !important;
+    font-style: italic !important;
+    font-weight: lighter !important;
+    line-height: 30px;
+    margin-bottom: 20px !important;
+}
+.case-study-question {
+    color: #666666;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.case-study-question-description {
+    color: #666666;
+    font-family: Open Sans,sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.casestudy-question-start { color: #E1735A }
+.final-page-question { padding-bottom: 30px }
+a { color: #0088CC }
+a:hover { color: #A5004E }
+
+input {
+  display: inline;
+  white-space: nowrap;
+  
+}
+
+.final-page-summry-title{
+    padding-top: 25px;
+}
+
+.casestudy-pdf{
+    color: #666666;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,11 @@
+name: Casestudy
+description: 'Custom module for casestudy and quiz functionality.'
+package: APhA Custom
+type: module
+version: '8.x-1.0'
+core: '8.x'
+dependencies:
+  - options
+  - entity_reference
+  - webform
+

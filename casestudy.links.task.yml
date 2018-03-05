@@ -1,0 +1,63 @@
+casestudy.list_tab:
+  title: Case Study or Quiz List
+  route_name: entity.casestudy.list
+  base_route: entity.casestudy.list
+
+casestudy.add_tab:
+  title: 'Add New Case Study or Quiz'
+  route_name: entity.casestudy.add_form
+  base_route: entity.casestudy.list
+
+casestudy.global_settings_tab:
+  title: 'Case Study or Quiz Global Settings'
+  route_name: casestudy.global_settings
+  base_route: entity.casestudy.list
+
+
+# Tabs for Casestudy Settings Page
+casestudy.settings_tab:
+  title: Settings
+  route_name: entity.casestudy.settings_form
+  base_route: entity.casestudy.settings_form
+
+casestudy.question_html_list:
+  title: Question / HTML Page List
+  route_name: entity.casestudy.settings_form
+  parent_id: casestudy.settings_tab
+
+casestudy.add_question_tab:
+  title: 'Add Question'
+  route_name: entity.question.add
+  parent_id: casestudy.settings_tab
+
+casestudy.add_html_tab:
+  title: 'Add HTML Page'
+  route_name: entity.question.add_html
+  parent_id: casestudy.settings_tab
+
+casestudy.tab_settings_tab:
+  title: 'Tab Settings'
+  route_name: entity.casestudy.tab_settings_form
+  base_route: entity.casestudy.settings_form
+
+casestudy.analytics_tab:
+  title: 'Analytics'
+  route_name: entity.casestudy.analytics_form
+  base_route: entity.casestudy.settings_form
+
+
+casestudy.tab_list_tab:
+  title: Case Study Tab List
+  route_name: entity.casestudy.tab_settings_form
+  parent_id: casestudy.tab_settings_tab
+
+casestudy.tab_add_tab:
+  title: Add Case Study Tab
+  route_name: entity.tab.add
+  parent_id: casestudy.tab_settings_tab
+
+casestudy.final_page_settings_tab:
+  title: 'Final Result Page'
+  route_name: entity.casestudy.final_page_form
+  base_route: entity.casestudy.settings_form
+

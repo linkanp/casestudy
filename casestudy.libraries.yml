@@ -1,0 +1,63 @@
+casestudy_jscss:
+  version: 1.x
+  css:
+    base:
+      css/casestudy.css: {}
+      css/quiz.css: {}
+      css/print.css: {media: print }
+      css/pdf.css: {  }
+  js:
+    http://www.google.com/jsapi: { type: external, minified: true }
+    js/casestudy.js: { }
+    js/casestudyGoogleChart.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.tabs
+
+quiz_jscss:
+  version: 1.x
+  css:
+    base:
+      css/quiz.css: {}
+      css/print.css: {media: print }
+      css/pdf.css: {  }
+  js:
+    http://www.google.com/jsapi: { type: external, minified: true }
+    js/casestudy.js: { }
+    js/casestudyGoogleChart.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.tabs
+
+admin_css:
+  version: 1.x
+  css:
+    base:
+      css/admin.css: {}
+
+casestudy_finalstep:
+  version: 1.x
+  css:
+    base:
+      css/casestudy_final.css: {}
+
+# Progress.
+
+casestudy.progress:
+  version: VERSION
+  css:
+    component:
+      css/casestudy.progress.css: {}
+
+casestudy.progress.bar:
+  version: VERSION
+  css:
+    component:
+      css/casestudy.progress.bar.css: {}
+
+casestudy.progress.tracker:
+  version: VERSION
+  css:
+    component:
+      css/progress-tracker.css: {}
+      css/casestudy.progress.tracker.css: {}

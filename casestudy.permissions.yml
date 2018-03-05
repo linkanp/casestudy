@@ -1,0 +1,4 @@
+#Define the administer permission for the robot config entity.
+'administer casestudy':
+  title: 'Administer robots'
+  description: Create and edit casestudy.

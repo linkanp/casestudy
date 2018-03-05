@@ -1,0 +1,17 @@
+apha_casestudy.admin_index:
+  title: 'APhA Casestudy'
+  description: 'Casestudy configurations.'
+  parent: system.admin_config
+  route_name: entity.casestudy.admin_index
+  weight: 100
+
+casestudy.list:
+  title: 'Casestudy List'
+  route_name: entity.casestudy.list
+  parent: apha_casestudy.admin_index
+
+
+casestudy.add:
+  title: 'Casestudy Add'
+  route_name: entity.casestudy.add_form
+  base_route: casestudy.list

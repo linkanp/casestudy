@@ -1,0 +1,248 @@
+<?php
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * @file
+ * Demonstrates how to define a new configuration entity type.
+ */
+
+/**
+ * @defgroup config_entity_example Example: Config Entity
+ * @ingroup examples
+ * @{
+ * Implement a Config Entity.
+ *
+ * This module demonstrates implementing a Config Entity.
+ *
+ * This is an example of a simple configuration entity, the kind you might
+ * create to store administrator-defined objects like blocks or views.
+ *
+ * In this module we define a configuration entity named 'Robot'. The entity
+ * has a unique ID (also called a machine name), a human-readable label used
+ * for display, and a universally unique identifier. You can create new robots
+ * by navigating to &lt;your_site_root&gt;/examples/config_entity_example. A
+ * default robot, "marvin", is included with the module.
+ *
+ * What's special about a Configuration Entity?
+ *
+ * Configuration entities are entities just like content entities. The key
+ * difference is where the data is stored. Content entities are stored in the
+ * database. Configuration entities are stored in *.yml files, typically under
+ * &lt;your_site_root&gt;/sites/default/files/config_&lt;unique_id&gt;.
+ *
+ * Another key difference with configuration entities is the expectation they
+ * are created by administrators, and not end users. As files, configuration
+ * entities can be added to a version control system.
+ *
+ * Originally based on code from blog post at
+ * http://previousnext.com.au/blog/understanding-drupal-8s-config-entities
+ */
+
+/**
+ * @} End of "defgroup config_entity_example".
+ */
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * PLEASE NOTE:
+ * The custom_* prefix should be replaced with the custom module's namespace.
+ * For example, the Acme module (acme.module) should prefix all custom
+ * element properties with 'acme_'.
+ *
+ * @see \Drupal\webform_ui\Form\WebformUiElementFormBase
+ * @see \Drupal\webform\Plugin\WebformElementBase::buildConfigurationForm
+ * @see \Drupal\webform\Plugin\WebformElementBase::form
+ */
+//function casestudy_form_webform_ui_element_form_alter(&$form, FormStateInterface $form_state) {
+//
+//}
+
+///**
+// * Implements hook_webform_element_alter().
+// */
+//function casestudy_webform_element_alter(array &$element, FormStateInterface $form_state, array $context) {
+//    // Add data-custom to the element's attributes.
+//    //echo 'xx';
+//    if (!empty($element['#custom_data'])) {
+//        $element['#attributes']['data-custom'] = $element['#custom_data'];
+//    }
+//}
+
+///**
+// * Implements hook_theme_registry_alter
+// */
+//function casestudy_theme_registry_alter(&$theme_registry) {
+//    $theme_registry['page']['path'] = drupal_get_path('module', 'casestudy') . '/templates';
+//}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function casestudy_preprocess_page(&$variables) {
+
+    $variables['custom_data'] = 'custom data';
+   //$variables['#attached']['library'][] =  'casestudy/casestudy_jscss';
+}
+
+function casestudy_page_attachments(array &$page) {
+    //echo 'xxxxx';
+
+    $route = \Drupal::routeMatch()->getRouteObject();
+
+
+    $is_admin = \Drupal::service('router.admin_context')->isAdminRoute($route);
+
+    $casestudy = \Drupal::routeMatch()->getParameter('casestudy');
+
+
+
+    if(!empty($casestudy)  && !$is_admin){
+        //echo 'xxx';
+        //$page['casestudy'] = $casestudy;
+        if($casestudy->prefix == 'quiz'){
+            $page['#attached']['library'][] = 'casestudy/quiz_jscss';
+
+            $config = \Drupal::config('system.site');
+
+
+            $ogTitle = [
+                '#tag' => 'meta',
+                '#attributes' => [
+                    'property' => 'og:title',
+                    'content' => $casestudy->label(),
+                ],
+            ];
+            $page['#attached']['html_head'][] = [$ogTitle, 'og:title'];
+            $ogSiteName = [
+                '#tag' => 'meta',
+                '#attributes' => [
+                    'property' => 'og:site_name',
+                    'content' => $config->get('name'),
+                ],
+            ];
+            $page['#attached']['html_head'][] = [$ogSiteName, 'og:site_name'];
+            $element = array(
+                '#tag' => 'meta',
+                '#attributes' => array(
+                    'property' => 'og:description',
+                    'content' => 'Take this Show You Know quiz and find out!',
+                ),
+            );
+            $page['#attached']['html_head'][] = [$element, 'og:description'];
+
+            $element = array(
+                '#tag' => 'meta',
+                '#attributes' => array(
+                    'property' => 'og:image',
+                    'content' => '/sites/all/modules/custom/casestudy/images/SYK_again_share.png',
+                ),
+            );
+            $page['#attached']['html_head'][] = [$element, 'og:image'];
+
+            // Twitter Card
+            $element = array(
+                '#tag' => 'meta',
+                '#attributes' => array(
+                    'property' => 'twitter:card',
+                    'content' => 'summary',
+                ),
+            );
+            $page['#attached']['html_head'][] = [$element, 'twitter:card'];
+            $element = array(
+                '#tag' => 'meta',
+                '#attributes' => array(
+                    'property' => 'twitter:title',
+                    'content' => $casestudy->label(),
+                ),
+            );
+            $page['#attached']['html_head'][] = [$element, 'twitter:title'];
+            $element = array(
+                '#tag' => 'meta',
+                '#attributes' => array(
+                    'property' => 'twitter:description',
+                    'content' => 'Take this Show You Know quiz and find out!',
+                ),
+            );
+            $page['#attached']['html_head'][] = [$element, 'twitter:description'];
+
+
+
+        } else {
+            $page['#attached']['library'][] = 'casestudy/casestudy_jscss';
+        }
+    }
+    $page['#attached']['library'][] = 'casestudy/admin_css';
+
+    //$node = \Drupal::routeMatch()->getParameter('node');
+    //print_r($node);
+
+}
+
+/**
+ * Implements hook_theme()
+ */
+function casestudy_theme() {
+    $theme_var = array(
+        'casestudy_display' => array(
+            'variables' => array(
+                'form' => [],
+                'casestudy_id' => null,
+                'casestudy' => null,
+                'form_tab_header' => null,
+                'tabs_header' => null,
+                'tabs_content' => null,
+                'left_nav' => true,
+                'casestudy_title' => '',
+                'url_path' => '',
+            ),
+            'template' => 'casestudy-display',
+        ),
+        'quiz_display' => array(
+            'variables' => array(
+                'form' => [],
+                'casestudy_id' => null,
+                'casestudy' => null,
+                'form_tab_header' => null,
+                'tabs_header' => null,
+                'tabs_content' => null,
+                'left_nav' => true,
+                'casestudy_title' => '',
+                'url_path' => '',
+            ),
+            'template' => 'quiz-display',
+        ),
+        'casestudy_progress_tracker' => [
+            'variables' => [
+                'casestudy' => NULL,
+                'current_page' => NULL,
+                'max_pages' => 10,
+            ],
+        ],
+        'quiz_result_chart' => [
+            'variables' => [
+                'rows' => NULL,
+            ],
+        ],
+        'quiz_final_result' => [
+            'variables' => [
+                'data' => NULL,
+            ],
+        ],
+        'casestudy_legend' => [
+            'variables' => [
+                'casestudy' => NULL,
+                'current_page' => NULL,
+                'legend_content' => NULL
+            ],
+        ],
+    );
+
+    // Since any rendering of a casestudy is going to require 'casestudy.theme.inc'
+    // we are going to just add it to every template.
+    foreach ($theme_var as &$template) {
+        $template['file'] = 'includes/casestudy.theme.inc';
+    }
+
+    return $theme_var;
+}
